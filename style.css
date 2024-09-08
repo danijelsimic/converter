@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    max-width: 500px; 
+}
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.result h2 {
+    margin-bottom: 10px;
+}
+.result p {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+}
+.alert {
+    display: none; 
+}
+.alert.d-block {
+    display: block; 
+}
